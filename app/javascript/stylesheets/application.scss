@@ -7,23 +7,29 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background-image: url("../images/hotdogs.jpg");
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-family: 'Kanit', sans-serif;
 }
 
 .navbar {
-  background-image: url("../images/little_pluses.png");
   box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+.navbar .navbar-brand {
+  color: #D87511;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
 }
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background-image: url("../images/little_pluses.png");
+  background-image: url("../images/prism.png");
   border: 1px solid #ccc;
   border-radius: 30px;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
+  color: #D87511;
 }
