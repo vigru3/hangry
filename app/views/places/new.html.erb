@@ -6,6 +6,10 @@
     <%= f.input :address %>
     <%= f.input :description %>
     <br />
+    <div class="field">
+      <%= f.label :picture %>
+      <%= f.file_field :picture %>
+  </div>
     <%= f.submit 'Create', class: 'btn btn-primary' %>
   <% end %>  
 </div>

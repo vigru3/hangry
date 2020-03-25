@@ -59,3 +59,4 @@ gem "font-awesome-rails"
 gem 'devise'
 gem 'geocoder'
 gem 'figaro'
+gem 'google-cloud-storage', '~> 1.11', require: false
